@@ -13,10 +13,10 @@
       <Exclude>easybuggy/src/main/webapp/dt/basic_header.html</Exclude>
       <Exclude>easybuggy/src/main/webapp/dfi/style_bootstrap.html</Exclude>
       <Exclude>easybuggy/src/main/webapp/dfi/style_google_mdl.html</Exclude>
-      <Exclude>easybuggy/src/main/webapp/uid/clientinfo.jsp</Exclude>
       <Exclude>easybuggy/src/main/webapp/uid/serverinfo.jsp</Exclude>
-      <Exclude>easybuggy/src/main/resources/application.properties</Exclude>
+      <Exclude>easybuggy/src/main/webapp/uid/clientinfo.jsp</Exclude>
       <Exclude>easybuggy/src/main/resources/ESAPI.properties</Exclude>
+      <Exclude>easybuggy/src/main/resources/application.properties</Exclude>
       <Exclude>easybuggy/src/main/webapp/index.jsp</Exclude>
       <Exclude>easybuggy/src/main/webapp/dfi/style_materialize.html</Exclude>
       <Exclude>easybuggy/src/main/resources/indexpage_ja.properties</Exclude>
