@@ -2,14 +2,14 @@
 <Configuration sourceCodeOnly="true" staticAnalysisOnly="true">
   <Targets>
     <Target path="easybuggy">
-      <Exclude>easybuggy/.travis.yml</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\troubles\JVMCrashByEAVServlet.java</Exclude>
+      <Exclude>easybuggy/.travis.yml</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\exceptions\ArithmeticExceptionServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\exceptions\MissingResourceExceptionServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\core\utils\MultiPartFileUtils.java</Exclude>
       <Exclude>easybuggy\src\main\webapp\WEB-INF\web.xml</Exclude>
-      <Exclude>easybuggy\target\classes\indexpage_en.properties</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\performance\CreatingUnnecessaryObjectsServlet.java</Exclude>
+      <Exclude>easybuggy\target\classes\indexpage_en.properties</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\exceptions\NumberFormatExceptionServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\vulnerabilities\XSSServlet.java</Exclude>
       <Exclude>easybuggy\src\main\resources\ESAPI.properties</Exclude>
@@ -27,7 +27,6 @@
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\core\servlets\DefaultLogoutServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\troubles\RoundOffErrorServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\exceptions\InputMismatchExceptionServlet.java</Exclude>
-      <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\vulnerabilities\SQLInjectionServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\exceptions\IllegalMonitorStateExceptionServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\troubles\InfiniteLoopServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\exceptions\ArrayStoreExceptionServlet.java</Exclude>
@@ -37,8 +36,8 @@
       <Exclude>easybuggy\src\main\webapp\dfi\style_materialize.html</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\vulnerabilities\MailHeaderInjectionServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\exceptions\MalformedParameterizedTypeExceptionServlet.java</Exclude>
-      <Exclude>easybuggy\target\classes\application.properties</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\performance\SlowRegularExpressionServlet.java</Exclude>
+      <Exclude>easybuggy\target\classes\application.properties</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\errors\FactoryConfigurationErrorServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\vulnerabilities\OpenRedirectServlet.java</Exclude>
       <Exclude>easybuggy\src\main\java\org\t246osslab\easybuggy\exceptions\SecurityExceptionServlet.java</Exclude>
