@@ -2,23 +2,7 @@
 <Configuration sourceCodeOnly="true" staticAnalysisOnly="true">
   <Targets>
     <Target path="easybuggy">
-      <Exclude>easybuggy/.travis.yml</Exclude>
-      <Exclude>easybuggy\src\main\resources\ESAPI.properties</Exclude>
-      <Exclude>easybuggy\src\main\webapp\index.jsp</Exclude>
-      <Exclude>easybuggy\src\main\resources\indexpage_ja.properties</Exclude>
-      <Exclude>easybuggy\src\main\webapp\uid\serverinfo.jsp</Exclude>
-      <Exclude>easybuggy\src\main\resources\indexpage_en.properties</Exclude>
-      <Exclude>easybuggy\src\main\webapp\dt\includable.jsp</Exclude>
-      <Exclude>easybuggy\target\classes\indexpage_ja.properties</Exclude>
-      <Exclude>easybuggy\src\main\webapp\WEB-INF\web.xml</Exclude>
-      <Exclude>easybuggy\target\classes\indexpage_en.properties</Exclude>
-      <Exclude>easybuggy\src\main\webapp\dfi\style_materialize.html</Exclude>
-      <Exclude>easybuggy\src\main\webapp\dfi\includable.jsp</Exclude>
-      <Exclude>easybuggy\src\main\webapp\uid\clientinfo.jsp</Exclude>
-      <Exclude>easybuggy\src\main\webapp\dfi\style_google_mdl.html</Exclude>
-      <Exclude>easybuggy\target\classes\ESAPI.properties</Exclude>
-      <Exclude>easybuggy\src\main\resources\application.properties</Exclude>
-      <Exclude>easybuggy\target\classes\application.properties</Exclude>
+      <Exclude>**\src\main\java\org\t246osslab\easybuggy\vulnerabilities\**</Exclude>
     </Target>
   </Targets>
 </Configuration>
