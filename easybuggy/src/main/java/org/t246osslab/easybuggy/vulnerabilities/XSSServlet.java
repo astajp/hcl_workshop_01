@@ -35,8 +35,8 @@ public class XSSServlet extends AbstractServlet {
 
             if (!StringUtils.isBlank(string)) {
                 // Reverse the given string
-                //String reversedName = StringUtils.reverse(string);
-                String reversedName = string;
+                String reversedName = StringUtils.reverse(string);
+                //String reversedName = string;
                 bodyHtml.append(getMsg("label.reversed.string", locale) + " : "
                         + reversedName);
             } else {
