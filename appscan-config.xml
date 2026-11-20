@@ -2,7 +2,6 @@
 <Configuration sourceCodeOnly="true" staticAnalysisOnly="true">
   <Targets>
     <Target path="easybuggy">
-      <Exclude>**\src\main\java\org\t246osslab\easybuggy\vulnerabilities\**</Exclude>
     </Target>
   </Targets>
 </Configuration>
