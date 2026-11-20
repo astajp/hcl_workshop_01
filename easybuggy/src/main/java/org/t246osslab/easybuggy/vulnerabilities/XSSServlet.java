@@ -46,7 +46,9 @@ public class XSSServlet extends AbstractServlet {
             bodyHtml.append(getInfoMsg("msg.note.xss", locale));
             bodyHtml.append("</form>");
 
-            responseToClient(req, res, getMsg("title.xss.page", locale), bodyHtml.toString());
+            //responseToClient(req, res, getMsg("title.xss.page", locale), bodyHtml.toString());
+            res.setContentType("text/html;charset=UTF-8");
+            res.getWriter().write(bodyHtml.toString());
 
         } catch (Exception e) {
             log.error("Exception occurs: ", e);
